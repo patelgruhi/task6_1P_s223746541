@@ -14,7 +14,7 @@ public class WeatherAndMathUtils1 {
     
     public static int factorial(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
+            throw new IllegalArgumentException("Factorial for negative numbers.");
         }
 
         int result = 1;
